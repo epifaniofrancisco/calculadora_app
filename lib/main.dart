@@ -1,5 +1,14 @@
 // @dart=2.9
 
+<<<<<<< Updated upstream
+=======
+/*
+Autor: Epifânio Francisco
+Data: 03/09/2021
+Função: Uma App de Calculadora simples com Flutter.
+*/
+
+>>>>>>> Stashed changes
 import 'package:calculadora_app/screens/calculator.dart';
 import 'package:flutter/material.dart';
 
