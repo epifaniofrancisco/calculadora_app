@@ -1,5 +1,5 @@
 class Memory {
-  static const operations = const ['%', '/', 'x', '-', '+', '='];
+  static const operations = const ['%', '÷', 'x', '-', '+', '='];
   String _value = '0';
   final _buffer = [0.0, 0.0];
   int _bufferIndex = 0;
@@ -12,10 +12,12 @@ class Memory {
       _operation = command;
       return;
     }
-    if (command == 'AC') {
+    if (command == 'c') {
       _allClear();
     } else if (operations.contains(command)) {
       _setOperation(command);
+    } else if (command == 'del') {
+      _delete();
     } else {
       _addDigit(command);
     }
@@ -76,11 +78,17 @@ class Memory {
     _wipeValue = false;
   }
 
+  _delete() {
+    _value = _value.length > 1 ?_value.substring(0, _value.length - 1) : '0';
+    _buffer[_bufferIndex] = double.tryParse(_value)!;
+    
+  }
+
   _calculate() {
     switch (_operation) {
       case '%':
         return _buffer[0] % _buffer[1];
-      case '/':
+      case '÷':
         return _buffer[0] / _buffer[1];
       case 'x':
         return _buffer[0] * _buffer[1];
