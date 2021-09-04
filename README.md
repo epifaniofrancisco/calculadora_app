@@ -1,16 +1,41 @@
-# calculadora_app
 
-A new Flutter project.
+<div align="center">
+  <h1>Calculadora_app</h1>
+</div>
 
-## Getting Started
+Este README tem como objetivo orientar como este projeto está estruturado e deve servir como um guia para ajudar a instalar, usar e modificar o projeto na sua máquina.
 
-This project is a starting point for a Flutter application.
+- [Descrição](#descrição-do-projeto): uma breve descrição do projeto;
+- [Configuração](#configuração): como configurar o seu projeto local;
+- [Autor](#autor): autor do projeto;
 
-A few resources to get you started if this is your first Flutter project:
+## Descrição do Projeto
+<p align="justify"> Calculadora_app é um projeto open-source feito com Flutter e com um design simples.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  ##### O que a calculadora é capaz de fazer:
+  
+![demo](https://user-images.githubusercontent.com/81193129/132089764-717efab0-7ed1-451e-b9a4-579fd5d901f3.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  :white_check_mark: Realizar as operações básicas aritméticas.
+  
+  :white_check_mark: deletar o úçtimo número na calculadora e limpar todos os números.
+
+</p>
+
+## Configuração
+
+Se você não tem ideia de como instalar o Flutter e executá-lo localmente,
+[_Get started_](https://flutter.dev/docs/get-started/install).
+
+Se você tiver o Flutter configurado localmente, na pasta raiz do projeto, instale as dependências do pubspec executando
+`flutter pub get`.
+
+### Autor
+---
+Feito com ❤️ por Epifânio Francisco 👋🏽 Entre em contato!
+
+<div>
+  <a href="https://www.facebook.com/ACEDE-105470194242383" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a>
+  <a href="https://instagram.com/epifanio_francisco29" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href = "mailto:epifaniofrancisco03@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/epif%C3%A2nio-francisco-3a44741ba/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
